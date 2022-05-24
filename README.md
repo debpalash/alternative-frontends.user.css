@@ -14,8 +14,8 @@ Apply:
 
 Features:
 
-* Bigger player page
-* Site thumnbs and content uses full width for contents
+* Full window width player gets even bigger with ratio
+* Site thumbs and content uses full width
 * Top multiple instances support, you can add or edit your own
 
 Compatibility:
