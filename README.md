@@ -20,7 +20,7 @@ Features:
 
 Compatibility:
 
-* Chromium/Chorme
+* Chromium based
 * Firefox not tested
 
 
