@@ -27,3 +27,4 @@ Compatibility:
 Screenshots:
 
 ![homepage!](/shot1.png "Invidious-fullwidth.css")
+![player Page!](/shot2.png "Invidious-fullwidth.css")
