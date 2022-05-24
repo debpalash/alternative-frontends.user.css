@@ -2,6 +2,11 @@
 
 Stylus css for making [Invidious](https://github.com/iv-org/invidious) site and payer full width to your browser window.
 
+Install:
+
+Install [Stylus](https://github.com/openstyles/stylus)
+[Click](https://raw.githubusercontent.com/debpalash/Invidious-fullwidth.css/main/Invidious-fullwidth.css)
+
 Features:
 
 * Bigger player page
@@ -10,10 +15,10 @@ Features:
 
 Compatibility:
 
-* Stylus addon to apply this style [Stylus](https://github.com/openstyles/stylus).
-* I've not tested on other addons
+* Chromium/Chorme
+* firefox not tested
 
 
-Screenshots
+Screenshots:
 
 ![homepage!](/shot1.png "Invidious-fullwidth.css")
