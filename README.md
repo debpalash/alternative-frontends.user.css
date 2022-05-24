@@ -5,6 +5,7 @@ Stylus css for making [Invidious](https://github.com/iv-org/invidious) site and 
 Install:
 
 Install [Stylus](https://github.com/openstyles/stylus)
+
 [Click](https://raw.githubusercontent.com/debpalash/Invidious-fullwidth.css/main/Invidious-fullwidth.css)
 
 Features:
