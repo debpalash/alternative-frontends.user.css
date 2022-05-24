@@ -15,3 +15,5 @@ Compatibility:
 
 
 Screenshots
+
+![homepage!](/shot1.png "Invidious-fullwidth.css")
