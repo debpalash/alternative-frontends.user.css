@@ -1,6 +1,6 @@
 # Invidious-fullwidth.css
 
-Stylus css for making invidious site and payer full width to your browser window.
+Stylus css for making [Invidious](https://github.com/iv-org/invidious) site and payer full width to your browser window.
 
 Features:
 
@@ -10,5 +10,8 @@ Features:
 
 Compatibility:
 
-Stylus addon to apply this style [Stylus]<https://github.com/openstyles/stylus>
-Can use on other style injectors but i've not tested
+* Stylus addon to apply this style [Stylus](https://github.com/openstyles/stylus).
+* I've not tested on other addons
+
+
+Screenshots
