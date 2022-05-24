@@ -1,12 +1,16 @@
 # Invidious-fullwidth.css
 
-Stylus css for making [Invidious](https://github.com/iv-org/invidious) site and payer full width to your browser window.
+## Why
 
-Install:
+I needed a big player for coding along, so you dont have to zoom in or zoom out too much and without having to go fullscreen.
 
-Install [Stylus](https://github.com/openstyles/stylus)
+Stylus css for making [Invidious](https://github.com/iv-org/invidious) site's and player full width to your browser window.
 
-[Click](https://raw.githubusercontent.com/debpalash/Invidious-fullwidth.css/main/Invidious-fullwidth.css)
+Apply:
+
+1. Install [Stylus](https://github.com/openstyles/stylus)
+
+2. Click [file](https://github.com/debpalash/Invidious-fullwidth.css/raw/main/Invidious-fullwidth.user.styl)
 
 Features:
 
@@ -17,7 +21,7 @@ Features:
 Compatibility:
 
 * Chromium/Chorme
-* firefox not tested
+* Firefox not tested
 
 
 Screenshots:
