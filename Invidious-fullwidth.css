@@ -8,101 +8,117 @@
 @preprocessor   stylus
 @license      MIT
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://yewtu.be/"),
-               url-prefix("https://invidious.snopyta.org/"),
-               url-prefix("https://vid.puffyan.us/"),
-               url-prefix("https://invidious.kavin.rocks/"),
-               url-prefix("https://invidious.tiekoetter.com/"),
-               url-prefix("https://yt.artemislena.eu/"),
-               url-prefix("https://invidious.esmailelbob.xyz/"),
-               url-prefix("https://invidio.xamh.de/"),
-               url-prefix("https://inv.riverside.rocks/"),
-               url-prefix("https://invidious-us.kavin.rocks/"),
-               url-prefix("https://invidious.osi.kr/"),
-               url-prefix("https://yt.artemislena.eu/") {
-
-#player-container {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-
-.player-dimensions.vjs-fluid {
-	padding-top: 45.86% !important;
-}
-
-#player-container {
-	padding-bottom: 45.86% !important;
-}
+url-prefix("https://invidious.snopyta.org/"),
+url-prefix("https://vid.puffyan.us/"),
+url-prefix("https://invidious.kavin.rocks/"),
+url-prefix("https://invidious.tiekoetter.com/"),
+url-prefix("https://yt.artemislena.eu/"),
+url-prefix("https://invidious.esmailelbob.xyz/"),
+url-prefix("https://invidio.xamh.de/"),
+url-prefix("https://inv.riverside.rocks/"),
+url-prefix("https://invidious-us.kavin.rocks/"),
+url-prefix("https://invidious.osi.kr/"),
+url-prefix("https://tube.i.palash.dev/") {
 
 
+	.navbar {
+		margin: 5px;
+		padding: 2px;
+	}
+	#searchbox {
+		border-radius: 9px;
+		background-color: #00000014;
+		position: fixed;
+		width: 40%;
+		height: 5%;
+		margin: 0 auto;
+		top: 0;
+		z-index: 100;
+	}
+	#player-container {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
 
-.player-dimensions.vjs-fluid {
-	padding-top: 55.86% !important;
-}
-
-#player-container {
-	padding-bottom: 65.86% !important;
-}
-
-
-pure-u-md-2-24 {
-	display: none;
-}
-
-#player {
-	width: 100%;
-	height: fit-content;
-	background-color: #000;
-}
-
-#player-container {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-@media only screen and (max-aspect-ratio: 16/9) {
 	.player-dimensions.vjs-fluid {
-		padding-top: 55.86% !important;
+		padding-top: 45.86% !important;
 	}
 
 	#player-container {
 		padding-bottom: 45.86% !important;
 	}
-}
 
-@media only screen and (max-aspect-ratio: 16/9) {
+
+
 	.player-dimensions.vjs-fluid {
-		padding-top: 55.86% !important;
+		padding-top: 56.06% !important;
 	}
 
 	#player-container {
-		padding-bottom: 55.86% !important;
+		padding-bottom: 54.66% !important
+	}
+
+
+	pure-u-md-2-24 {
+		display: none;
+	}
+
+	#player {
+		width: 100%;
+		height: fit-content;
+		background-color: #000;
+	}
+
+	#player-container {
+		width: 99%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	@media only screen and (max-aspect-ratio: 16/9) {
+		.player-dimensions.vjs-fluid {
+			padding-top: 55.86% !important;
+		}
+
+		#player-container {
+			padding-bottom: 45.86% !important;
+		}
+	}
+
+	@media only screen and (max-aspect-ratio: 16/9) {
+		.player-dimensions.vjs-fluid {
+			padding-top: 55.86% !important;
+		}
+
+		#player-container {
+			padding-bottom: 55.86% !important;
+		}
+	}
+
+	.pure-u-md-2-24 {
+		display: none;
+		width: 0;
+	}
+	#contents {
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.video-js .vjs-tech {
+		position: absolute;
+	}
+
+	body.dark-theme {
+		background-color: rgba(35, 35, 35, 1);
+		color: #636464;
+		font-family: Monolisa;
+	}
+
+	.pure-u-md-20-24,
+	.pure-u-md-5-6 {
+		width: 99vw;
 	}
 }
-
-.pure-u-md-2-24 {
-	display: none;
-	width:0;
-}
-#contents{
-	display: block;
-	margin: 0 auto;
-	padding: 0;
-}
-
-.video-js .vjs-tech {
-	position: absolute;
-}
-
-body.dark-theme{
-	background-color: rgba(35, 35, 35, 1);
-	color: #636464;
-	font-family: Monolisa;
-}
-
-.pure-u-md-20-24, .pure-u-md-5-6{
-	width:99vw;
-}
-} /* moz end */
+/* moz end */
