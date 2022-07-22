@@ -8,40 +8,77 @@
 @preprocessor   stylus
 @license      MIT
 ==/UserStyle== */
-@-moz-document url-prefix("https://yewtu.be/"),
-url-prefix("https://invidious.snopyta.org/"),
-url-prefix("https://vid.puffyan.us/"),
-url-prefix("https://invidious.kavin.rocks/"),
-url-prefix("https://invidious.tiekoetter.com/"),
-url-prefix("https://yt.artemislena.eu/"),
-url-prefix("https://invidious.esmailelbob.xyz/"),
-url-prefix("https://invidio.xamh.de/"),
-url-prefix("https://inv.riverside.rocks/"),
-url-prefix("https://invidious-us.kavin.rocks/"),
-url-prefix("https://invidious.osi.kr/"),
-url-prefix("https://tube.i.palash.dev/") {
-
-
+@-moz-document url-prefix("https://tube.i.palash.dev") {
+    h1,a {
+        font-family:"Fira Code";
+        
+    }
+    hr{
+        display:none
+    }
+    p{
+         font-family:"Calibri";
+    }
 	.navbar {
 		margin: 5px;
 		padding: 2px;
 	}
+    .feed-menu{
+        padding-top:20px;
+    }
+    div.pure-g:nth-child(3){
+        justify-content:center;
+    }
+    div.pure-u-1{
+        border: 2px dolid red;
+    }
+    div.pure-md-1-3{
+        width: 100%;
+        display:contents;
+        text-align:center;
+        margin:0px auto;
+    }
+    .pure-u-1-3 .pure-u-8-24 {
+        width: 100%;
+    }
+    .pure-u-1-3 > div:nth-child(1){
+        display:block-ruby;
+            
+    }
+    .pure-u-2-3{
+        display:none
+    }
+    div.pure-md-1-3> a{
+        margin:10px 25px 10px 10px;
+    }
+
 	#searchbox {
-		border-radius: 9px;
-		background-color: #00000014;
+		border-radius: 5px;
+		background-color: #0000004d;
 		position: fixed;
-		width: 40%;
-		height: 5%;
+		width: 35%;
 		margin: 0 auto;
-		top: 0;
+		top: 2px;
 		z-index: 100;
+        font-size:20px;
 	}
+    #searchbox:hover{
+        border-radius:3px dotted #63050587;
+        background: #0ab8bb99;
+        color: #fff
+    }
 	#player-container {
+    color: white;
 		width: 100%;
 		padding: 0;
 		margin: 0;
 	}
-
+    .pure-u-1 .pure-u-md-1-4{
+        background-color: #2e825069;
+    }
+    .thumbnail{
+        border-radius: 5px;
+    }
 	.player-dimensions.vjs-fluid {
 		padding-top: 45.86% !important;
 	}
