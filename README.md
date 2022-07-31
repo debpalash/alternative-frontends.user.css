@@ -7,7 +7,7 @@ How to use?
 
 1. Install [Stylus](https://github.com/openstyles/stylus)
 
-2. Click [file](https://github.com/debpalash/Invidious-fullwidth.css/raw/main/Invidious-fullwidth.user.styl)
+2. Click [file](https://github.com/debpalash/InvidiousFullScreen-Stylus/raw/main/InvidiousFullScreen.styl)
 
 Compatibility:
 
